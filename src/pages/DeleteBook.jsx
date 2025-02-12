@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import BackButton from "../components/home/backButton";
+import BackButton from "../components/home/BackButton";
 import axios from "axios";
 
 const DeleteBook = () => {
