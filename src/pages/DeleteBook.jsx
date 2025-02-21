@@ -13,7 +13,7 @@ const token = localStorage.getItem("token");
 
     
     axios
-      .delete(`https://th-back-5m76.vercel.app//books/${id}`, {
+      .delete(`https://th-back-5m76.vercel.app/books/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",
