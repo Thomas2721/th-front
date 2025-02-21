@@ -13,7 +13,7 @@ const ShowBook = () => {
 
     
     axios
-      .get(`https://th-back.onrender.com/books/${id}`, {
+      .get(`https://th-back-5m76.vercel.app/books/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",
