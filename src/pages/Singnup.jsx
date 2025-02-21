@@ -13,7 +13,7 @@ const Singnup = () => {
   const handleSingUp = () => {
     axios
       .post(
-        "https://th-back.vercel.app/user/signup",
+        "https://back-seven-puce.vercel.app/user/signup",
         {
           username,
           email,
