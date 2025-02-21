@@ -13,7 +13,7 @@ const Singnup = () => {
   const handleSingUp = () => {
     axios
       .post(
-        "https://th-back.onrender.com/signup",
+        "https://th-back.onrender.com/user/signup",
         {
           username,
           email,
