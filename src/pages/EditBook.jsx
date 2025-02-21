@@ -11,7 +11,7 @@ const EditBook = () => {
 
   useEffect(()=>{
 axios
-  .get(`https://th-back.onrender.com/books/${id}`)
+  .get(`https://th-back-5m76.vercel.app/books/${id}`)
   .then((response) => {
     setAuthor(response.data.author);
     setPublishYear(response.data.publishYear);
@@ -30,7 +30,7 @@ axios
        publishYear,
      };
      axios
-       .put(`https://th-back.onrender.com/books/${id}`, data)
+       .put(`https://th-back-5m76.vercel.app/books/${id}`, data)
        .then(() => {
          navigate("/home");
        })
