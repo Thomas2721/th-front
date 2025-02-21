@@ -11,7 +11,7 @@ const EditBook = () => {
 
   useEffect(()=>{
 axios
-  .get(`https://th-back.vercel.app/books/${id}`)
+  .get(`https://th-back.onrender.com/books/${id}`)
   .then((response) => {
     setAuthor(response.data.author);
     setPublishYear(response.data.publishYear);
