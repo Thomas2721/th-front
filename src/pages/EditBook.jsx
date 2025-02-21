@@ -30,7 +30,7 @@ axios
        publishYear,
      };
      axios
-       .put(`https://th-back.vercel.app/books/${id}`, data)
+       .put(`https://th-back.onrender.com/books/${id}`, data)
        .then(() => {
          navigate("/home");
        })
